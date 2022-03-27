@@ -10,7 +10,6 @@ export default function Dictionary() {
     setKeyWord(event.target.value);
   }
   function handleResponse(response) {
-    console.log(response);
     setDefinition(response.data[0]);
   }
   function search(event) {
