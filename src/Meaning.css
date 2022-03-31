@@ -1,0 +1,11 @@
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.Meaning {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}

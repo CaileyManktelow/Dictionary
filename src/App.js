@@ -1,11 +1,11 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Dictionary />
-      <span>
+      <Dictionary defaultKeyword="sunset" />
+      <footer>
         Coded by Cailey Manktelow. Open sourced on{" "}
         <a
           href="https://github.com/CaileyManktelow"
@@ -15,9 +15,7 @@ function App() {
           GitHub
         </a>{" "}
         .{" "}
-      </span>
+      </footer>
     </div>
   );
 }
-
-export default App;

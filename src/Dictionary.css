@@ -1,2 +1,19 @@
-.dictionary {
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.dictionary h3 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.dictionary input {
+  border: 1px solid #807f81;
+  border-radius: 4px;
+  width: 100%;
+  line-height: 1.5;
 }
