@@ -3,7 +3,6 @@ import "./Definition.css";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
 export default function Definition(props) {
-  console.log(props.definition);
   if (props.definition) {
     return (
       <div className="definition">
